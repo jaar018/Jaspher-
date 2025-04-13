@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #1d1f23;
+  color: white;
+  padding-top: 70px; 
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98%; 
+  z-index: 1000; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #121417;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+.logo img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover; 
+}
+
+.logo span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+}
+  nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  nav a.active,
+  nav a:hover {
+    background-color: #4caf50;
+    border-radius: 5px;
+  }
+  
+  .signin {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .about {
+    padding: 40px 30px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4caf50;
+  }
+  
+  .about section {
+    margin-bottom: 25px;
+  }
+  
+  .about ul {
+    list-style: disc;
+    margin-left: 20px;
+  }
+  
+  footer {
+    background-color: #121417;
+    color: white;
+    padding: 40px 20px 20px;
+    margin-top: 110PX;
+    font-size: 0.9rem;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-logo img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .footer-logo span {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-links a {
+    color: #bbb;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links a:hover {
+    color: white;
+  }
+  
+  .footer-social img {
+    width: 24px;
+    height: 24px;
+    filter: brightness(0) invert(1); /* make icons white */
+    transition: transform 0.3s ease;
+  }
+  
+  .footer-social a:hover img {
+    transform: scale(1.2);
+  }
+  
+  .footer-credit {
+    color: #888;
+    font-size: 0.8rem;
+    margin-top: 20px;
+  }
+  
